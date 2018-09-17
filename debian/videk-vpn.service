@@ -1,0 +1,10 @@
+[Unit]
+Description=Videk VPN client
+Before=videk-client.service
+
+[Service]
+Restart=always
+ExecStart=/usr/sbin/openvpn /etc/videk/videk.ovpn
+
+[Install]
+WantedBy=multi-user.target

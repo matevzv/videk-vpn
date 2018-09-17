@@ -1,0 +1,13 @@
+Source: videk-vpn
+Section: misc
+Priority: extra
+Maintainer: Matevz Vucnik <matevz.vucnik@ijs.si>
+Build-Depends: debhelper (>= 9), dh-systemd (>= 1.5)
+Standards-Version: 3.9.8
+
+Package: videk-vpn
+Architecture: all
+Depends: systemd, openvpn, videk-client
+Description: Boot scripts for Videk client
+ This package provides Videk OpenVPN client and a systemd service for
+ connection to OpenVPN server on Videk management system.

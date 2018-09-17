@@ -1,0 +1,7 @@
+debian/files
+debian/videk-vpn/*
+debian/*.debhelper
+debian/*.debhelper.log
+debian/debhelper-build-stamp
+debian/*.substvars
+*.egg-info
